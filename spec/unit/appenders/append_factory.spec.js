@@ -1,4 +1,4 @@
-fdescribe('appenders.appender_factory', () => {
+describe('appenders.appender_factory', () => {
   'use strict';
   let factory;
 

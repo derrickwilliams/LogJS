@@ -2,7 +2,6 @@ import { LEVELS } from '../levels'
 import { create as createAppender } from './appender_factory'
 
 function setFlushInterval () {
-  debugger
   return global.setTimeout
 }
 
@@ -20,7 +19,7 @@ function xhrTransmitter () {
   }
 }
 
-function flushBuffer (bfr, transmit, done) => {
+function flushBuffer (bfr, transmit, done) {
   const entries = copyBuffer(bfr)
   resetBuffer(bfr)
   transmit(entries, done)

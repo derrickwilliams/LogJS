@@ -29,7 +29,7 @@
     "webpack": "^1.13.1"
   },
   "dependencies": {
-    "lodash": "^2.4.1",
+    "lodash": "^4.16.6",
     "mixing": "^1.2.0",
     "sidekick": "^1.10.2"
   }
